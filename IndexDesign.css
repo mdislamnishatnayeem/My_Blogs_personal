@@ -1,0 +1,112 @@
+body{
+  margin: 0px;
+  height: auto;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.head{
+/*  background-image: url('noah-grossenbache.jpg');*/
+  background-image: url('pawel-czerwinski-suLgJZ1edT4-unsplash.jpg');
+  background-size: cover;
+  width:90%;
+  height:94px;
+  margin: 8px 8px 0px 8px;
+  border-style: solid;
+  border:1px 1px 1px 5px;
+  border-radius: 10px 10px 0px 0px;
+  border-color:#ccccff;
+  
+  
+  padding-right:10px;
+  padding-left:10px;
+  padding-top:0px;
+  padding-bottom: 0px;
+  
+}
+.profile{
+  
+  width:90px;
+  height:90px;
+  
+  border:solid 2px #ccccff;
+  border-radius: 50%;
+  background-image: url('DSC_0938.jpg');
+  background-size: cover;
+  float: left;
+}
+
+
+
+.blogs{
+  width:90%;
+  height:auto;
+  border-style: solid;
+  border:1px 1px 1px 5px;
+  border-color:#ccccff;
+  margin: 0px 8px 8px 8px;
+  padding:10px;
+  font-size:16px;
+  text-align: justify;
+  word-spacing: normal;
+  background-color:#ccccff;
+  border-radius: 0px 0px 15px 15px;
+}
+
+a{
+  
+}
+
+img{
+  width:100%;
+}
+
+vedio{
+  width:100%;
+}
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float:right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: teal;
+    color: white;
+    min-width: 120px;
+    padding-left:5px;
+    padding-right;5px;
+    border-radius:15px;
+    float: left;
+    overflow-x: break-word;
+   
+}
+.dropdown .dropdown-content{
+   transition: all .5s ease;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+        background:blue;
+}
+.dropdown img{
+  height:50px;
+  width:50px;
+  
+}
+.dropdown-content p:hover{
+  background:darkblue;
+  
+}
